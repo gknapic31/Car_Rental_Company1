@@ -2,6 +2,7 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/login">Login</router-link>
+    <router-link to="/signup">Sing Up</router-link>
   </nav>
   <router-view/>
 </template>
@@ -16,7 +17,7 @@
 }
 
 nav {
-  padding: 30px;
+  padding: 35px;
 
   a {
     font-weight: bold;
